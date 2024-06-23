@@ -57,3 +57,4 @@ D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\07 ORM (EF Core, 
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\07 ORM (EF Core, Dapper)\Assignments\Assgin01EFCore\Assgin01EFCore\obj\Debug\net6.0\Assgin01EFCore.pdb
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\07 ORM (EF Core, Dapper)\Assignments\Assgin01EFCore\Assgin01EFCore\obj\Debug\net6.0\Assgin01EFCore.genruntimeconfig.cache
 D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\07 ORM (EF Core, Dapper)\Assignments\Assgin01EFCore\Assgin01EFCore\obj\Debug\net6.0\ref\Assgin01EFCore.dll
+D:\engineering terms\front-end-engineer\Route\C41 RouteBackend\07 ORM (EF Core, Dapper)\Assignments\Assgin01EFCore\Assgin01EFCore\obj\Debug\net6.0\Assgin01EFCore.sourcelink.json

@@ -17,5 +17,19 @@ namespace Assgin01EFCore.Entities
         [DataType(DataType.DateTime)]
         public DateTime HiringDate { get; set; }
 
+        //(Enroll) relation between student and dept one to many
+        [InverseProperty(nameof(Student.Department))]
+        public ICollection<Student> Students { get; set; } = new HashSet<Student>(); //navigational preoperty many relation enroll
+
+        //(work) relation between instructor and dept one to many 
+        [InverseProperty(nameof(Instructor.Department))]
+        public ICollection<Instructor> Instructors { get; set; } = new HashSet<Instructor>(); //navigational property many of instructors works
+
+
+        //(control) relation between instructor one to one
+        [ForeignKey(nameof(Department.Instructor_Manager))]
+        public int? InstId { get; set; } //Fk of Instructor_ID
+        public Instructor? Instructor_Manager { get; set; }
+
     }
 }

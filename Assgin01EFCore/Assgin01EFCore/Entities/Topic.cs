@@ -14,5 +14,9 @@ namespace Assgin01EFCore.Entities
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
+
+        //(contain) relation between course and topic
+
+        public ICollection<Course> Courses { get; set; } = new HashSet<Course>(); //navigational property
     }
 }
